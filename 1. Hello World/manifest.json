@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "Hello World",
+    "description": "An Simple Hello World Extension Made for Fun (1st Time Trial Extension made for Practice)",
+    "version": 1.0,
+    "permissions" [
+        "activeTab",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "/background.js"
+    },
+    "content_Scripts": {
+        "matches": ["<all_urls>"],
+        "js": ["/content.js"]
+    },
+    "action": {
+        "default_popup": "/popup.html",
+        "default_icon": {
+            "48": "/images/48_HelloWorld.png",
+            "64": "/images/64_HelloWorld.png",
+            "128": "/images/128_HelloWorld.png"
+        }
+    },
+    "options_page": "/options.html",
+    "icons": {
+        "48": "/images/48_HelloWorld.png",
+        "64": "/images/64_HelloWorld.png",
+        "128": "/images/128_HelloWorld.png"
+    }
+}
