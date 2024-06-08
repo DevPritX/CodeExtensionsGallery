@@ -3,7 +3,7 @@
     "name": "Hello World",
     "description": "An Simple Hello World Extension Made for Fun (1st Time Trial Extension made for Practice)",
     "version": 1.0,
-    "permissions" [
+    "permissions": [
         "activeTab",
         "storage"
     ],
