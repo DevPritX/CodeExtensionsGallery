@@ -1,0 +1,23 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Nanum Pen Script", cursive;
+}
+#wrapper{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#wrapper h1{
+    font-size: 30px;
+    font-weight: 600;
+}

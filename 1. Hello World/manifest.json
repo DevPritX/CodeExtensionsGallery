@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Hello World",
     "description": "An Simple Hello World Extension Made for Fun (1st Time Trial Extension made for Practice)",
-    "version": 1.0,
+    "version": "1.0",
     "permissions": [
         "activeTab",
         "storage"
@@ -10,10 +10,12 @@
     "background": {
         "service_worker": "/background.js"
     },
-    "content_Scripts": {
-        "matches": ["<all_urls>"],
-        "js": ["/content.js"]
-    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["/content.js"]
+        }
+    ],
     "action": {
         "default_popup": "/popup.html",
         "default_icon": {
