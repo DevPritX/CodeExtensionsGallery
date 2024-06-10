@@ -1,6 +1,6 @@
 # Hello World Chrome Extension
 
-![Hello World Icon](./images/128_HelloWorld.png)
+![https://github.com/pritamUGDeveloper/CodeExtensionsGallery](./images/128_HelloWorld.png)
 
 ## Overview
 
